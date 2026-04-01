@@ -1,0 +1,15 @@
+export function areaCuadrado(lado) {
+    return lado * lado;
+}
+
+export function perimetroCuadrado(lado) {
+    return 4 * lado;
+}
+
+export function areaCirculo(radio) {
+    return Math.PI * radio * radio;
+}
+
+export function perimetroCirculo(radio) {
+    return 2 * Math.PI * radio;
+}
